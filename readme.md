@@ -3,7 +3,7 @@ ShuffleVids is a video player that allows you to play your favorite videos both 
 
 ### Getting started
 - To get started with ShuffleVids Desktop, simply download and install the app on your computer. You can then drag and drop your video files into the player, or use the file selection dialog to choose the videos you want to play.
-- To use ShuffleVids on the web, simply visit the website and upload your video files
+- To use (ShuffleVids)[https://krutik48.github.io/ShuffleVids/] on the web, simply visit the website and upload your video files
 
 ### Usage
 Once you have added your videos, you can use the controls to play, pause, skip, or shuffle them.
