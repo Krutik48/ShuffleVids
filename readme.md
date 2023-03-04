@@ -9,8 +9,8 @@ ShuffleVids is a video player that allows you to play your favorite videos both 
 Once you have added your videos, you can use the controls to play, pause, skip, or shuffle them.
 
 ### Keyboard Shortcuts
-`N`: Play the next video
-`P`: Play the previous video
+`N`: Play the next video <br>
+`P`: Play the previous video 
 `Space`: Toggle play/pause
 `M`: Mute/unmute
 `Arrow Up`: Increase volume
