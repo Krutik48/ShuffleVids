@@ -47,5 +47,5 @@ With `Shift` Key
 ### Credits
 ShuffleVids Desktop was built using the following resources:
 
-[Plyr Library](https://plyr.io/ "Plyr library")
+[Plyr Library](https://plyr.io/ "Plyr library") <br>
 [Electron](https://www.electronjs.org/ "Electron")
