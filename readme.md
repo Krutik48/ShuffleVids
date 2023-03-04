@@ -10,37 +10,37 @@ Once you have added your videos, you can use the controls to play, pause, skip, 
 
 ### Keyboard Shortcuts
 `N`: Play the next video <br>
-`P`: Play the previous video 
-`Space`: Toggle play/pause
-`M`: Mute/unmute
-`Arrow Up`: Increase volume
-`Arrow Down`: Decrease volume
-`Arrow Right`: Forward 10 seconds
-`Arrow Left`: Backward 10 seconds
-`+`: Increase Speed by 0.5
-`-`: Decrease Speed by 0.5
-`]`: Increase Speed by 0.1
-`[`: Decrease Sped by 0.1
-`F`: Toggle fullscreen
-`I`: Enable picture in picture
-`R`: Restart Video
+`P`: Play the previous video <br>
+`Space`: Toggle play/pause <br>
+`M`: Mute/unmute <br>
+`Arrow Up`: Increase volume <br>
+`Arrow Down`: Decrease volume <br>
+`Arrow Right`: Forward 10 seconds <br>
+`Arrow Left`: Backward 10 seconds <br>
+`+`: Increase Speed by 0.5 <br>
+`-`: Decrease Speed by 0.5 <br>
+`]`: Increase Speed by 0.1 <br>
+`[`: Decrease Sped by 0.1 <br>
+`F`: Toggle fullscreen <br>
+`I`: Enable picture in picture <br>
+`R`: Restart Video <br>
 
 With `Shift` Key
 
-`1`: Decrease Brightness
-`2`: Increase Brightness
-`3`: Decrease Contrast
-`4`: Increase Contrast
-`5`: Decrease Saturation
-`6`: Increase Saturation
-`7`: Decrease Hue
-`8`: Increase Hue
-`9`: Decrease Grayscale
-`0`: Increase Grayscale
-`<`: Decrease Sped by 0.1
-`>`: Increase Speed by 0.1
-`Arrow Left`: Backward 5 seconds
-`Arrow Right`: Forward 5 seconds
+`1`: Decrease Brightness <br>
+`2`: Increase Brightness <br>
+`3`: Decrease Contrast <br>
+`4`: Increase Contrast <br>
+`5`: Decrease Saturation <br>
+`6`: Increase Saturation <br>
+`7`: Decrease Hue <br>
+`8`: Increase Hue <br>
+`9`: Decrease Grayscale <br>
+`0`: Increase Grayscale <br>
+`<`: Decrease Sped by 0.1 <br>
+`>`: Increase Speed by 0.1 <br>
+`Arrow Left`: Backward 5 seconds <br>
+`Arrow Right`: Forward 5 seconds <br>
 
 
 
