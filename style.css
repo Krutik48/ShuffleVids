@@ -80,7 +80,7 @@
     padding: 0;
     cursor: pointer;
 }
-  
+
 #playlist li {
     margin: 10px 10px 5px 10px !important;
     padding: 5px;
@@ -105,8 +105,24 @@
     #playlist li {
         width: 95vw;
     }
+    .drop-area{
+        width: 95vw;
+    }
+    #fileInput{
+        width: 100% !important;
+    }
     #fileInput2{
         width: 95vw;
+    }
+    .plyr__video-wrapper{
+        height: auto !important;
+    }
+    .plyr__controls {
+        height: 90px;
+    }
+    .plyr__volume,
+    .plyr__menu {
+        display: none !important;
     }
 }
 
@@ -114,6 +130,15 @@
     background-color: #0952fa !important;
     color: white !important;
 }
+
+#dark, #light, #suffleBtn{
+    width: 60px !important;
+    height: 50px !important;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+
 
 li:active {
     box-shadow: 0 0 10px rgba(217, 27, 27, 0.5);

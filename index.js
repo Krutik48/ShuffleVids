@@ -188,6 +188,11 @@ function handleFiles(files,wantToAddInExisting=false) {
     });
     setItemEventListner();
     if(wantToAddInExisting===false){
+        // mobile device
+        if (window.matchMedia("(max-width: 768px)").matches) {
+            // player into full screen
+            player.fullscreen.enter();
+        }
         playRandomVideo();
     }
 }
@@ -334,16 +339,37 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
+let lastTap = 0;
+document.addEventListener('touchend', function (event) {
+    let currentTime = new Date().getTime();
+    let tapLength = currentTime - lastTap;
+    if (tapLength < 500 && tapLength > 0) {
+        if(event.changedTouches[0].clientX > window.innerWidth/2){
+            player.forward(10);
+        }
+        else{
+            player.rewind(10);
+            
+        }
+    }
+    lastTap = currentTime;
+});
+
+
+
 
 function setFilter(){
+    console.log("HI");
     searchInput.addEventListener("input", function() {
+        console.log("HI2");
         const searchQuery = this.value.toLowerCase();  
         for (let i = 0; i < items.length; i++) {
             const item = items[i];
+            console.log(item.textContent.toLowerCase());
             if (item.textContent.toLowerCase().indexOf(searchQuery) !== -1) {
-                item.style.display = "inline-block";
+                item.style.setProperty("display","inline-block", "important")
             } else {
-                item.style.display = "none";
+                item.style.setProperty("display", "none", "important");
             }
         }
     });
@@ -477,6 +503,16 @@ document.addEventListener('keydown', (event) => {
     let videoPoster = document.getElementsByClassName("plyr__video-wrapper")[0];
     videoPoster.style.filter = `brightness(${brightness}%) contrast(${contrast}%) saturate(${saturation}%) hue-rotate(${hueRotate}deg) grayscale(${grayscale}%)`;
 });
+
+
+if (window.matchMedia("(max-width: 768px)").matches) {
+    // videoPlayerContainer.addEventListener("touchstart", function(event) {
+    //    // player toggle play
+    //     if(event.touches.length === 1){
+    //         player.togglePlay();
+    //     }
+    // });
+}
 
 
 function speedDisplay(){
